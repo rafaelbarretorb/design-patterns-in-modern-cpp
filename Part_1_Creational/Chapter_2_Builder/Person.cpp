@@ -1,7 +1,6 @@
 #include "Person.h"
 #include "PersonBuilder.h"
 
-PersonBuilder Person::create()
-{
+PersonBuilder Person::create() {
   return PersonBuilder{};
 }
