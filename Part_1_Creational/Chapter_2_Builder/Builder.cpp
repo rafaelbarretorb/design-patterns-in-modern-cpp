@@ -101,8 +101,7 @@ int main() {
   std::cout << builder2->str() << std::endl;
 
 
-  // ERROR if I do this way
-  // Segmentation fault (core dumped)
+  // ERROR if I do this way "Segmentation fault (core dumped)""
   // auto builder2 = HtmlElement::build("ul")->add_child_2("li", "hello")->add_child_2("li", "world");
   // std::cout << builder2->str() << std::endl;
 
